@@ -14,8 +14,8 @@
 
     <!-- Custom stylesheets and materialize css -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <!-- <link rel="stylesheet" href="css/materialize.min.css"> -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> -->
+    <link rel="stylesheet" href="css/materialize.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -97,7 +97,7 @@
         </div>
         <div class="parallax-text">
             <h2 class="center-align white-text darken-3">Image text</h2>
-            <p class="grey darken-1 white-text text-darken-2 paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero
+            <p class="grey darken-3 white-text text-darken-2 paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero
                 quod possimus pariatur illo culpa veritatis delectus, sapiente optio tenetur repellat!</p>
         </div>
     </div>
@@ -108,7 +108,7 @@
             <div class="row center-align">
                 <div class="col s12 m4 l3">
                     <div class="row center-align">
-                        <div class="col s6 m6 l6">
+                        <div class="col s12 m6 l6">
                             <h2 class="">Server rules</h2>
                             <i class="material-icons large">attachment</i>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam repellendus non vel
@@ -181,7 +181,7 @@
     <!-- <div class="dev-box"></div> -->
 
 <!-- follow -->
-    <section class="follow amber darken-1 white-text center-align text-center">
+    <section class="follow deep-orange darken-1 white-text center-align text-center">
             <div class="container">
                 <div class="row">
                     <div class="s12 follow-section">
@@ -207,7 +207,7 @@
 <!-- modyfications - cards -->
     <section class="section card-section">
         <div class="container">
-            <h3 class="center-text card-h3">Look for mods</h3>
+            <h3 class="center-text card-h3">Look for some mods</h3>
             <div class="row">
                 <div class="col l6 m12 s12">
                     <div class="card">
@@ -219,7 +219,7 @@
                             <p class="large">You can look here for some mods</p>
                         </div>
                         <div class="card-action">
-                            <a href="#">Resources</a>
+                            <a href="#" class="blue-text text-darken-3">Resources</a>
                         </div>
                     </div>
                 </div>
@@ -233,7 +233,7 @@
                             <p>Here you can check our </p>
                         </div>
                         <div class="card-action">
-                            <a href="https://servers.fivem.net/#/">Link to fivem servers</a>
+                            <a href="https://servers.fivem.net/#/" class="blue-text text-darken-3">Link to fivem servers</a>
                         </div>
                     </div>
                 </div>
@@ -330,7 +330,8 @@
         
                         <!-- File uploader -->
                         <div class="file-field input-field">
-                            <div class="btn blue">
+                          <!-- blue default -->
+                            <div class="btn deep-orange accent-3">
                                 <span>File</span>
                                 <input type="file">
                             </div>
@@ -348,16 +349,75 @@
                                 </select>
                                 <label>Options</label>
                         </div>
-                        <button class="btn medium red waves-effect waves-light pulse" style="width:100%; margin-top:20px;">Send<i class="material-icons">send</i></button>
+                        <!-- pulse in button -->
+                        <button class="btn medium red waves-effect waves-light " style="width:100%; margin-top:20px; padding-right:5px;">Send<i class="material-icons">send</i></button>
                 </form>
             </div>
         </div>
     </section>
+    
+    <footer class="footer deep-orange lighten-2">
+      <div class="container">
+        <div class="row">
+          <div class="col s12 m6 footer-margin">
+            <h5 class="white-text">About developers</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto aliquam dolorum officiis rem commodi explicabo magnam saepe iste quam tenetur? Vero mollitia alias vel, quia consequatur perferendis enim magni ipsum dicta, unde tempora adipisci velit, omnis libero a numquam eius?</p>
+          </div>
+      
+      
+          <div class="col s12 m4 l4 offset-l2 footer-margin">
+            <h5 class="white-text">Some helpful links</h5>
+            <ul>
+              <li>
+                <a href="#" class="black-text">
+                  <i class="material-icons white-text">phone</i>
+                  Contact with us
+                </a>
+              </li>
+              <li>
+                <a href="#" class="black-text">
+                  <i class="material-icons white-text">account_balance</i>
+                  Check our mod base
+                </a>
+              </li>
+              <li>
+                <a href="#" class="black-text">
+                  <i class="material-icons white-text">assignment_ind</i>
+                  Leave your whitelist application
+                </a>
+              </li>
+              <li>
+                <a href="#" class="black-text">
+                  <i class="material-icons white-text">assignment</i>
+                  Leave your whitelist application
+                </a>
+              </li>
+              <li>
+                <a href="#" class="black-text">
+                  <i class="material-icons white-text">assignment</i>
+                  Leave your whitelist application
+                </a>
+              </li>
+            </ul>
+            
+            <!-- <div class="col s12 m4 l4">
+              <h5 class="white-text">Social media</h5>
+            </div> -->
+          </div>
+        </div>
+      </div>
+      
+      <div class="footer-copyright deep-orange white-text center-align copyright">
+        <div class="container">
+          &copy; 2018 Michal Czech
+        </div>
+      </div>
+    </footer>
 
     <!-- Jquery and materialize javascript files -->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <!-- <script src="js/materialize.min.js"></script> -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script> -->
+    <script src="js/materialize.min.js"></script>
     <script src="js/script.js"></script>
 
 </body>

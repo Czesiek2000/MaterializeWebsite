@@ -31,6 +31,9 @@ header {
 
 .paragraph {
   height: 100px;
+  width: 70vw;
+  margin-left: 250px;
+  margin-right: 200px;
   text-align: center;
   padding-top: 40px;
   margin-top: 50px
@@ -92,6 +95,20 @@ header {
   margin-top: -195px;
 }
 
+.footer {
+  margin-top: 40px;
+}
+
+.copyright {
+  margin-top: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.footer-margin{ 
+  margin-top: 30px;
+}
+
 @media(min-width: 360px) {
     .parallax-container {
         margin-top: 500px;
@@ -120,8 +137,13 @@ header {
         height: 300px;
         margin-bottom: 20px;
         margin-left: 100px;
-        margin-right: 100px;
-        
+        margin-right: 100px;        
+    }
+    
+    .slider-med, .slider {
+      margin-top: 100px;
+      margin-left: auto;
+      margin-right: auto;
     }
 
     .slider-images {
@@ -131,7 +153,12 @@ header {
     .carousel-h2 {
         margin-top: 70px;
     }
+    
+  .follow {
 
+    margin-top: 1714px;
+
+  }
 }
 
 @media (min-width: 320px) {
@@ -143,6 +170,18 @@ header {
     .card-margin {
       margin-top: 900px;
     }
+}
+
+@media (min-width: 600px) {
+  .follow {
+    margin-top: 1500px;
+  }
+}
+
+@media (max-width: 600px) {
+  .follow {
+    margin-top: 1900px;
+  }
 }
 
 @media (max-width: 780px) {
@@ -242,7 +281,7 @@ header {
   }
   
   .card-margin {
-    margin-top: -250px;
+    margin-top: -106px;
   }
 }
 
