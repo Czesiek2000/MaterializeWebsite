@@ -1,0 +1,255 @@
+* {
+    box-sizing: border-box;
+}
+header {
+    background-image: url(../img/gta-image.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    height: 100vh;
+}
+.section {
+    height: 100px;
+}
+
+.dev-box {
+    height: 1000px;
+}
+
+.row-container {
+    margin-top: 30px;
+}
+
+.parallax-container {
+    height: 900px;
+    margin-top: 430px;
+}
+
+.parallax-text{
+  margin-top: 320px;
+}
+
+.paragraph {
+  height: 100px;
+  text-align: center;
+  padding-top: 40px;
+  margin-top: 50px
+}
+
+.wbutton {
+    margin-top: 20px;
+}
+
+.pButton {
+    margin-top: 40px;
+}
+
+.slideshow {
+    margin-top: 400px;
+    margin-bottom: 200px;
+}
+
+.carousel-img, .slider-med{
+    width: 100vw;
+    height: 100vh;
+}
+
+.slider-med{
+    margin-top: 650px;    
+}
+
+.card-section {
+    margin-top: 110vh;
+}
+
+.card-title-cs {
+    width: 100%;
+    background: rgba(252, 246, 246, 0.2); 
+}
+
+.card-h3{
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
+
+.follow {
+    margin-top: 1208px;
+}
+
+.follow-section {
+    height: 250px;
+}
+
+.fa-4x {
+    margin: 5px 10px;
+}
+
+.contact {
+    margin-top: 800px;
+}
+
+.card-margin {
+  margin-top: -195px;
+}
+
+@media(min-width: 360px) {
+    .parallax-container {
+        margin-top: 500px;
+    }
+}
+
+@media (min-width: 320px){
+    .parallax-container {
+        margin-top: 650px;
+        text-align: center;
+    }
+}
+
+@media (min-width: 300px) {
+    .slider {
+        display: block;
+        margin-top: -70px;
+    }
+
+    li {
+        text-decoration: none;
+    }
+    .slider-img {
+        text-decoration: none;
+        width: 600px;
+        height: 300px;
+        margin-bottom: 20px;
+        margin-left: 100px;
+        margin-right: 100px;
+        
+    }
+
+    .slider-images {
+        margin-top: 150px;
+    }
+
+    .carousel-h2 {
+        margin-top: 70px;
+    }
+
+}
+
+@media (min-width: 320px) {
+    .card-section {
+        text-align: center;
+        margin-top: -4vh;
+    }
+    
+    .card-margin {
+      margin-top: 900px;
+    }
+}
+
+@media (max-width: 780px) {
+    .carousel-slider {
+        display: block;
+        /* margin-right: 300px; */
+        height: 100vh;
+        width: 100vw;
+    }
+}
+
+@media (min-width: 780px) {
+    .carousel-h2 {
+        margin-top: 113px;
+        margin-bottom: 70px;
+    }
+    
+    .card-margin {
+      margin-top: 900px;
+    }
+    
+    .follow {
+      margin-top: 1350px;
+    }
+}
+
+
+
+@media (min-width: 600px) {
+  .card-margin {
+    margin-top: 1200px;
+  }
+}
+
+@media (min-width: 740px) {
+  .card-margin {
+    margin-top: 1400px;
+  }
+}
+
+@media (min-width: 900px){
+  .card-margin {
+    margin-top: 1500px;
+  }
+  
+  /* .follow {
+    margin-top: 100px;
+  } */
+  
+}
+
+@media (min-width: 1000px){
+  .card-margin {
+    margin-top: -300px;
+  }
+  
+  .slider-images {
+    display: none;
+  }
+}
+@media (min-width: 1100px){
+  .card-margin {
+    margin-top: -250px;
+  }
+}
+
+@media (min-width: 1200px){
+  .card-margin {
+    margin-top: -250px;
+  }
+}
+
+@media (max-width: 1650px) {
+  .card-margin {
+    margin-top: -1500px;
+  }
+}
+
+@media (max-width: 980px){
+  .contact {
+    margin-top: 900px;
+  }
+  .card-margin {
+    margin-top: 100px;
+  }
+}
+
+@media (max-width: 1000px){
+  .card-margin {
+    margin-top: -200px;
+  }
+}
+
+@media (min-width: 993px){
+  .slider-imag {
+    display: none;
+  }
+  
+  .card-margin {
+    margin-top: -250px;
+  }
+}
+
+
+/* @media (min-width: 998px && 1000px  ){
+  .slider-images {
+    display: none;
+  }
+} */
+

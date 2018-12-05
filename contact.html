@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Materialize website</title>
+    <link rel="shortcut icon" href="img/materialize.png" type="image/x-icon">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+        crossorigin="anonymous">
+
+    <!-- Custom stylesheets and materialize css -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+   
+   <!--    <link rel="stylesheet" href="css/materialize.min.css">-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <h2 class="center-align">Whitelist form</h2>
+    <div class="container">
+    <div class="row">
+        <form class="col s12">
+            <div class="row">
+                <!-- first name -->
+                <div class="input-field col s12 m6">
+                    <i class="material-icons prefix">account_circle</i>
+                    <input type="text" id="icon_prefix" class="validate">
+                    <label for="icon_prefix">First Name</label>
+                </div>
+                <!-- name -->
+                <div class="input-field col s12 m6">
+                        <i class="material-icons prefix">mail</i>
+                        <input id="email" type="email" class="validate">
+                        <label for="email">Email</label>
+                </div>
+            </div>
+            <div class="row">
+                <!-- Nick -->
+                <div class="input-field col s12 m6">
+                    <i class="material-icons prefix">account_circle</i>
+                    <input type="text" id="icon_prefix" class="validate">
+                    <label for="icon_prefix">Nick(in game)</label>
+                </div>
+                <!-- Steam nick -->
+                <div class="input-field col s12 m6">
+                        <i class="material-icons prefix">cloud</i>
+                        <input id="email" type="email" class="validate">
+                        <label for="email">Steam nick</label>
+                </div>
+            </div>
+            <div class="row">
+                <!-- Discord 1 -->
+                <div class="input-field col s12 m6">
+                    <i class="material-icons prefix">account_circle</i>
+                    <input type="text" id="icon_prefix" class="validate">
+                    <label for="icon_prefix">Nick(in game)</label>
+                </div>
+                <!-- Discord 2 -->
+                <div class="input-field col s12 m6">
+                        <i class="material-icons prefix">cloud</i>
+                        <input id="email" type="email" class="validate">
+                        <label for="email">Steam nick</label>
+                </div>
+            </div>
+            <!-- textarea1 -->
+                <div class="row">
+                    <div class="input-field col s12">
+                        <i class="material-icons prefix">comment</i>
+                        <textarea id="textarea1" class="materialize-textarea" data-length="100"></textarea>
+                        <label for="textarea1">Info about you</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <!-- textarea Game Idea -->
+                    <div class="input-field col s12">
+                            <i class="material-icons prefix">mode_edit</i>
+                            <textarea id="icon_prefix2" class="materialize-textarea" data-length="150"></textarea>
+                            <label for="icon_prefix2">Your idea for game</label>
+                    </div>
+                </div>
+
+                <!-- File uploader -->
+                <div class="file-field input-field">
+                    <div class="btn blue">
+                        <span>File</span>
+                        <input type="file">
+                    </div>
+                    <div class="file-path-wrapper">
+                        <input class="file-path validate" type="text">
+                    </div>
+                </div>
+                <!-- select -->
+                <div class="input-field col s12" style="margin-top:20px;">
+                        <select multiple>
+                          <option value="" disabled selected>Choose your option</option>
+                          <option value="1">Option 1</option>
+                          <option value="2">Option 2</option>
+                          <option value="3">Option 3</option>
+                        </select>
+                        <label>Options</label>
+                </div>
+                <button class="btn medium red waves-effect waves-light pulse" style="width:100%; margin-top:20px;">Send<i class="material-icons">send</i></button>
+        </form>
+    </div>
+</div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- <script src="js/materialize.min.js"></script> -->
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
