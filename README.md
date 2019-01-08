@@ -19,4 +19,5 @@ This code is under MIT Licence.
 Fell free to use this website as website of your server.
 
 # Licence
-  Mit 
+  MIT 
+  ![Licence](LICENCE.md)
