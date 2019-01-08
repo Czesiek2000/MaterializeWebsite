@@ -10,7 +10,7 @@ $(document).ready(function () {
     $('.carousel').carousel();
 
     $('#textarea1').val('');
-    M.textareaAutoResize($('##textarea2'));
+    M.textareaAutoResize($('#textarea2'));
 
     $('select').formSelect();
 });
