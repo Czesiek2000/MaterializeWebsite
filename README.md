@@ -20,4 +20,4 @@ Fell free to use this website as website of your server.
 
 # Licence
   MIT 
-  ![Licence](LICENCE.md)
+  [Licence file](./LICENCE.md)
