@@ -1,6 +1,7 @@
 ![Materialize logo](img/materialize.png)
 ---
 
+
 # Materialize website
 This is my first try of materialize website. I want to make website that can be use for fivem community to advertice website. I also made it to introduce myself to materialize css framework. It is also really easy to customize for your own purpose. 
 If you would like to use it and customize it, check the materialize website documentation here: https://materializecss.com/getting-started.html
