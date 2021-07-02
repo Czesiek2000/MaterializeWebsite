@@ -10,7 +10,7 @@
 }
 
 .header { 
-  background: url('/img/gta-image.jpg');
+  background: url('../img/gta-image.jpg');
   height: 100vh;
   width: 100%;
   background-position: center;
