@@ -1,6 +1,8 @@
 $(document).ready(function () {
     $('.sidenav').sidenav();
 
+    $('.tooltipped').tooltip();
+
     $('.parallax').parallax();
 
     $('.carousel.carousel-slider').carousel({
@@ -9,8 +11,5 @@ $(document).ready(function () {
 
     $('.carousel').carousel();
 
-    $('#textarea1').val('');
-    M.textareaAutoResize($('#textarea2'));
-
-    $('select').formSelect();
+    $('.year').text(new Date().getFullYear())
 });

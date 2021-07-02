@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pl">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -9,45 +9,47 @@
     <link rel="shortcut icon" href="img/materialize.png" type="image/x-icon">
 
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
-        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+        integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 
     <!-- Custom stylesheets and materialize css -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <!--     <link rel="stylesheet" href="css/materialize.min.css"> -->
+    <!-- <link rel="stylesheet" href="css/materialize.min.css"> -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <!-- navbar -->
     <header class="header">
-        <nav class="transparent light-blue">
-            <div class="container">
-                <div class="nav-wrapper transparent light-blue darken-1">
-                    <a href="#!" class="brand-logo">Site Logo</a>
-                    <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-                    <ul class="right hide-on-med-and-down">
-                        <li class="active"><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Modyfications</a></li>
-                        <li><a href="#">Whitelist</a></li>
-                        <li><a href="#">Server Code</a></li>
-                        <li><a href="#">Contact</a></li>
-                        <li>
-                            <a href="" class="btn btn-floating tooltiped waves-effect waves-light btn-small indigo darken-3"
-                                data-tooltip="This is Facebook" data-position="bottom">
-                                <i class="fab fa-facebook"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="" class="btn btn-floating tooltiped waves-effect waves-light btn-small pink darken-2"
-                                data-tooltip="This is instagram" data-position="bottom">
-                                <i class="fab fa-instagram"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
+        <nav class="transparent">
+            <div class="nav-wrapper darken-1">
+                <a href="#" class="brand-logo logo">Site logo</a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger">
+                    <i class="material-icons">menu</i>
+                </a>
+                <ul class="right hide-on-med-and-down">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Modyfications</a></li>
+                    <li><a href="#">Whitelist</a></li>
+                    <li><a href="#">Server Code</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li>
+                        <a href="https://facebook.com"
+                            class="btn btn-floating tooltipped waves-effect waves-light btn-small indigo darken-3"
+                            data-tooltip="This is Facebook" data-position="bottom" target="blank">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://instagram.com"
+                            class="btn btn-floating tooltipped waves-effect waves-light btn-small pink darken-2"
+                            data-tooltip="This is instagram" data-position="bottom" target="blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                </ul>
             </div>
             <ul class="sidenav" id="mobile-demo">
                 <li class="active"><a href="#">Home</a></a></li>
@@ -58,162 +60,147 @@
                 <li><a href="#"><i class="material-icons">apps</i>Modyfications</a></li>
                 <li><a href="#"><i class="material-icons">assignment</i>Whitelist</a></li>
                 <li><a href="#"><i class="material-icons">code</i>Server Code</a></li>
-                <li><a href="#"><i class="material-icons">contact_phone</i>Contact</a></li>
+                <li><a href="contact.html"><i class="material-icons">contact_phone</i>Contact</a></li>
 
             </ul>
         </nav>
     </header>
 
-<!-- About -->
-    <section class="section">
-        <div class="row-container">
-            <div class="container">
-                <div class="row">
-                    <div class="col s12 m12 l6 push-l8">
-                        <img src="img/1.png" alt="1" class="responsive-img">
-                    </div>
-                    <div class="col s12 m12 l6 pull-l8">
-                        <h3 class="center-align  blue-grey-text text-darken-4">About server</h3>
-                        <p class="blue-grey-text text-darken-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, repudiandae ipsum
-                            debitis repellat, quis repellendus fuga ad dolores facilis saepe officia cum. Quibusdam
-                            officiis blanditiis tempora quis fugiat voluptate, earum doloribus maxime totam distinctio
-                            est quod incidunt minus et voluptatem ea labore deserunt saepe cum eaque doloremque.
-                            Nostrum consequuntur architecto perferendis ut vitae, odio explicabo labore nam soluta
-                            beatae incidunt, itaque, quam esse quis eos non excepturi impedit provident vero. Sunt
-                            recusandae incidunt dicta eligendi nisi ullam iste consectetur officiis suscipit fuga minus
-                            mollitia, ab quo ea amet excepturi soluta accusantium. Corporis aliquam reiciendis
-                            blanditiis eum omnis dolores qui provident.</p>
-                    </div>
+    <!-- About -->
+    <section class="section about">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 m12 l6">
+                    <h3 class="center-align blue-grey-text text-darken-4">About server</h3>
+                    <p class="blue-grey-text text-darken-4">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Non dolores dicta explicabo quisquam
+                        mollitia nemo. Incidunt debitis consequuntur sed cum architecto soluta unde dignissimos. Eaque
+                        fuga doloremque iusto minima ipsa dolorem itaque laborum exercitationem. Repellendus, tenetur
+                        ipsam obcaecati sed quisquam fugiat nisi debitis! Eius neque quos rem tempora reprehenderit.
+                        Provident!
+                    </p>
+                </div>
+                <div class="col s12 m12 l6" style="margin-top: 50px;">
+                    <img src="img/1.png" alt="1" class="responsive-img">
                 </div>
             </div>
         </div>
     </section>
 
-<!-- paralax -->
+    <!-- parallax -->
     <div class="parallax-container">
         <div class="parallax">
-            <!-- change picture to something from FiveM -->
-            <img src="img/header-image.jpg" alt="header-image" class="responsive-image">
+            <!-- change paralax picture -->
+            <img src="img/header-image.jpg" alt="header-image" class="responsive-img">
         </div>
         <div class="parallax-text">
             <h2 class="center-align white-text darken-3">Image text</h2>
-            <p class="grey darken-3 white-text text-darken-2 paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero
-                quod possimus pariatur illo culpa veritatis delectus, sapiente optio tenetur repellat!</p>
+            <p class="grey darken-3 white-text text-darken-2 paragraph">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero quod possimus pariatur illo culpa
+                veritatis delectus, sapiente optio tenetur repellat!
+            </p>
         </div>
     </div>
 
-<!-- rules -->
+    <!-- rules -->
     <section class="section">
         <div class="container">
             <div class="row center-align">
-                <div class="col s12 m4 l3">
-                    <div class="row center-align">
-                        <div class="col s12 m6 l6">
-                            <h2 class="">Server rules</h2>
-                            <i class="material-icons large">attachment</i>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam repellendus non vel
-                                doloribus. Autem obcaecati, aperiam deserunt similique doloremque nemo.</p>
-                        </div>
-                    </div>
+                <div class="col s12 m12 l3">
+                    <h2>Server rules</h2>
+                    <i class="material-icons medium">attachment</i>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam repellendus non vel doloribus.
+                        Autem obcaecati, aperiam deserunt similique doloremque nemo.
+                    </p>
                 </div>
-                <div class="col s12 m4 l3">
-                    <div class="row center-align">
-                        <h2 class="">Server features</h2>
-                        <i class="material-icons large center-align">folder</i>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas voluptates earum ad
-                            veniam nisi harum nesciunt adipisci minima porro necessitatibus, suscipit tempora vero iste
-                            aliquid esse illum maxime ipsam nemo corrupti molestias repellat. Ex quia dolorum corporis
-                            nostrum. Sunt, quasi.</p>
-                    </div>
+                <div class="col s12 m12 l3">
+                    <h2>Server features</h2>
+                    <i class="material-icons medium">folder</i>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam repellendus non vel doloribus.
+                        Autem obcaecati, aperiam deserunt similique doloremque nemo.
+                    </p>
                 </div>
-                <div class="col s12 m4 l3">
-                    <div class="row center-align">
-                        <h2 class="">Whitelist</h2>
-                        <a href="contact.html" class="btn-large waves-effect waves-light red z-depth-5 wbutton"><i class="material-icons left">email</i>Click
-                            for whitelist</a>
-                        <p class="pButton">Click for sign in to server whitelist</p>
-                        <p class="pButton">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus
-                            fugiat, error doloremque ipsum voluptatum ut quaerat in sunt animi voluptas?</p>
-                    </div>
+                <div class="col s12 m12 l3">
+                    <h2>Whitelist</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam repellendus non vel doloribus.
+                        Autem obcaecati, aperiam deserunt similique doloremque nemo.
+                    </p>
+                    <a href="contact.html" class="btn waves-effect waves-light red z-depth-5" style="margin-top: 20px;">
+                        <i class="material-icons left">email</i>
+                        Click to sign up on whitelist
+                    </a>
                 </div>
-                <div class="col s12 m4 l3">
-                    <div class="row center-align">
-                        <h2>Forum</h2>
-                        <p>Don't forget to checkout the forum of the serwer</p>
-                        <h3><a href="http://forum.fivem.net" class="red-text darken-3">Forum</a></h3>
-                    </div>
-                    <!-- <div class="row center-align">
-                            <h3><a href="#" class="blue-text text-darken-3">Discord</a></h3> 
-                        <h2>Discord</h2>
-                    </div> -->
+                <div class="col s12 m12 l3">
+                    <h2>Forum</h2>
+                    <p>Don't forget to checkout the forum of the serwer</p>
+                    <h5><a href="https://forum.cfx.re/" class="red-text darken-3" target="blank">FiveM forum</a></h3>
                 </div>
             </div>
         </div>
     </section>
 
-<!-- slideshow -->
+    <!-- slideshow -->
     <section class="section slideshow">
         <div class="container">
-            <h2 class="center-align carousel-h2">Some pictures of server</h2>
+            <!-- hidden on medium screens and mobiles -->
+            <h2 class="center-align hide-on-med-and-down">Some pictures from server</h2>
             <div class="carousel carousel-slider hide-on-med-and-down show-on-large-only">
                 <a href="#one!" class="carousel-item">
-                    <img src="img/slider-img1.jpg" alt="slider-img" class="carousel-img">
+                    <img src="img/slider-img1.jpg" alt="slider-img1" class="carousel-img">
                 </a>
                 <a href="#two!" class="carousel-item">
-                    <img src="img/slider-img2.jpg" alt="slider-img" class="carousel-img">
+                    <img src="img/slider-img2.jpg" alt="slider-img2" class="carousel-img">
                 </a>
-                <a href="#two!" class="carousel-item">
-                    <img src="img/slider-img3.jpg" alt="slider-img" class="carousel-img">
+                <a href="#three!" class="carousel-item">
+                    <img src="img/slider-img3.jpg" alt="slider-img2" class="carousel-img">
                 </a>
             </div>
+        </div>
+    </section>
 
-            <div class="slider slider-med">
-                <div class="slider-images">
-                    <img src="img/slider-img1.jpg" alt="slider-image" class="slider-img responsive-img">
-                    <img src="img/slider-img2.jpg" alt="slider-image" class="slider-img responsive-img">
-                    <img src="img/slider-img3.jpg" alt="slider-image" class="slider-img responsive-img">
-
+    <!-- follow -->
+    <section class="follow deep-orange darken-1 white-text center-align">
+        <div class="container">
+            <h4 style="padding-top: 20px;">Follow us</h4>
+            <p style="margin: 20px 0">Follow us on our different social media platforms</p>
+            <div class="row">
+                <div class="col s12 l3 follow-section">
+                    <a href="#" class="white-text">
+                        <i class="fab fa-facebook fa-4x" style="margin: 10px;"></i>
+                    </a>
+                </div>
+                <div class="col s12 l3">
+                    <a href="#" class="white-text">
+                        <i class="fab fa-google-plus fa-4x" style="margin: 10px;"></i>
+                    </a>
+                </div>
+                <div class="col s12 l3">
+                    <a href="#" class="white-text">
+                        <i class="fab fa-youtube fa-4x" style="margin: 10px;"></i>
+                    </a>
+                </div>
+                <div class="col s12 l3">
+                    <a href="#" class="white-text">
+                        <i class="fab fa-github fa-4x" style="margin: 15px;"></i>
+                    </a>
                 </div>
             </div>
         </div>
-
     </section>
-    <!-- <div class="dev-box"></div> -->
 
-<!-- follow -->
-    <section class="follow deep-orange darken-1 white-text center-align text-center">
-            <div class="container">
-                <div class="row">
-                    <div class="s12 follow-section">
-                        <h4>Follow us</h4>
-                        <p>Follow us on our diferent social media platforms</p>
-                            <a href="#" class="white-text">
-                                <i class="fab fa-facebook fa-4x"></i>
-                            </a>
-                            <a href="#" class="white-text">
-                                <i class="fab fa-google-plus fa-4x"></i>
-                            </a>
-                            <a href="#" class="white-text">
-                                <i class="fab fa-youtube fa-4x"></i>
-                            </a>
-                            <a href="#" class="white-text">
-                                <i class="fab fa-github fa-4x"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-        </section>
-
-<!-- modyfications - cards -->
-    <section class="section card-section">
+    <!-- modifications - section with cards -->
+    <section class="section">
         <div class="container">
-            <h3 class="center-text card-h3">Look for some mods</h3>
+            <h3 class="center-align" style="margin-bottom: 50px;">Look for some mods</h3>
             <div class="row">
                 <div class="col l6 m12 s12">
                     <div class="card">
                         <div class="card-image">
-                            <img src="./img/1.png" alt="1">
-                            <span class="card-title">Sample1</span>
+                            <img src="img/1.png" alt="1">
+                            <span class="card-title">Sample 1</span>
                         </div>
                         <div class="card-content">
                             <p class="large">You can look here for some mods</p>
@@ -226,14 +213,15 @@
                 <div class="col l6 m12 s12">
                     <div class="card">
                         <div class="card-image">
-                            <img src="./img/1.png" alt="1">
+                            <img src="img/1.png" alt="1">
                             <span class="card-title card-title-cs">Sample2</span>
                         </div>
                         <div class="card-content">
-                            <p>Here you can check our </p>
+                            <p>Here you can check our server on global server list</p>
                         </div>
                         <div class="card-action">
-                            <a href="https://servers.fivem.net/#/" class="blue-text text-darken-3">Link to fivem servers</a>
+                            <a href="https://servers.fivem.net/#/" class="blue-text text-darken-3" target="blank">Link
+                                to fivem servers</a>
                         </div>
                     </div>
                 </div>
@@ -241,177 +229,90 @@
         </div>
     </section>
 
-<!-- contact section -->
-    <section class="contact">
+    <!-- contact section -->
+    <section class="section">
+        <!-- remove container to set this box to be full width of the website -->
         <div class="container">
-                <!-- <div class="row"> -->
-                    <div class="col s12 m12">
-                        <div class="card-panel deep-orange lighten-1 white-text center card-margin">
-                            <i class="material-icons medium">email</i>
-                            <h5>Check link below to apply on whitelist</h5>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci itaque fugit atque rerum suscipit odit velit et est eos quos.</p>
-                            <!-- optional if you want in different site -->
-                            <!-- <a href="contact.html" class="center-align white-text">Whitelist</a>  -->
-                        </div>
-                    </div>
-                </div>
+            <div class="card-panel deep-orange lighten-1 white-text center-align">
+                <i class="material-icons medium">email</i>
+                <h5>Check link below to apply to whitelist</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium voluptatem explicabo neque eos
+                    ipsa magni nobis iste eligendi at, odio quos quod qui, aliquam animi, cupiditate officia ea
+                    accusamus hic id! Saepe architecto quis natus, enim iure ea nesciunt deleniti voluptatem cumque
+                    officiis placeat aperiam eaque, omnis tenetur ducimus minus.</p>
+                <!-- optional if you want in different site -->
+                <a href="contact.html" class="btn center-align white-text deep-orange darken-1"
+                    style="margin-top: 15px;">Whitelist</a>
             </div>
         </div>
+    </section>
 
-    <h2 class="center-align" style="margin-top:50px;">Whitelist form</h2>
+    <footer class="footer deep-orange lighten-2">
         <div class="container">
             <div class="row">
-                <form class="col s12">
-                    <div class="row">
-                        <!-- first name -->
-                        <div class="input-field col s12 m12 l6">
-                            <i class="material-icons prefix">account_circle</i>
-                            <input type="text" id="icon_prefix" class="validate">
-                            <label for="icon_prefix">Your Name</label>
-                        </div>
-                        <!-- name -->
-                        <div class="input-field col s12 m12 l6">
-                                <i class="material-icons prefix">mail</i>
-                                <input id="email" type="email" class="validate">
-                                <label for="email">Email</label>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <!-- Nick -->
-                        <div class="input-field col s12 m12 l6">
-                            <i class="material-icons prefix">account_circle</i>
-                            <input type="text" id="icon_prefix" class="validate">
-                            <label for="icon_prefix">Nick (in game)</label>
-                        </div>
-                        <!-- Steam nick -->
-                        <div class="input-field col s12 m12 l6">
-                                <i class="material-icons prefix">cloud</i>
-                                <input id="email" type="email" class="validate">
-                                <label for="email">Steam nick</label>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="input-field col s12 m12 l12">
-                                <i class="material-icons prefix">cloud</i>
-                                <input id="email" type="email" class="validate">
-                                <label for="email">Steam (full profile)</label>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <!-- Discord 1 -->
-                        <div class="input-field col s12 m12 l6">
-                            <i class="material-icons prefix">account_circle</i>
-                            <input type="text" id="icon_prefix" class="validate">
-                            <label for="icon_prefix">Discord nick</label>
-                        </div>
-                        <!-- Discord 2 -->
-                        <div class="input-field col s12 m12 l6">
-                                <i class="material-icons prefix">cloud</i>
-                                <input id="email" type="email" class="validate">
-                                <label for="email">Discord</label>
-                        </div>
-                    </div>
-                    <!-- textarea1 -->
-                        <div class="row">
-                            <div class="input-field col s12 m12 l12">
-                                <i class="material-icons prefix">comment</i>
-                                <textarea id="textarea2" class="materialize-textarea" data-length="100"></textarea>
-                                <label for="textarea2">Info about you (need to be 100 characters)</label>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <!-- textarea Game Idea -->
-                            <div class="input-field col s12">
-                                    <i class="material-icons prefix">mode_edit</i>
-                                    <textarea id="icon_prefix2" class="materialize-textarea" data-length="150"></textarea>
-                                    <label for="icon_prefix2">Your idea for game (need to be 150 characters)</label>
-                            </div>
-                        </div>
-        
-                        <!-- File uploader -->
-                        <div class="file-field input-field">
-                          <!-- blue default -->
-                            <div class="btn deep-orange accent-3">
-                                <span>File</span>
-                                <input type="file">
-                            </div>
-                            <div class="file-path-wrapper">
-                                <input class="file-path validate" type="text">
-                            </div>
-                        </div>
-                        <!-- select -->
-                        <div class="input-field col s12 m12 l6" style="margin-top:20px;">
-                                <select multiple>
-                                <option value="" disabled selected>Choose your option</option>
-                                <option value="1">Option 1</option>
-                                <option value="2">Option 2</option>
-                                <option value="3">Option 3</option>
-                                </select>
-                                <label>Options</label>
-                        </div>
-                        <!-- pulse in button -->
-                        <button class="btn medium red waves-effect waves-light " style="width:100%; margin-top:20px; padding-right:5px;">Send<i class="material-icons">send</i></button>
-                </form>
+                <div class="col s12 m6">
+                    <h5 class="white-text">About developers</h5>
+                    <p class="white-text">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus facilis alias cupiditate eius
+                        minima nobis qui deleniti laudantium quos sint esse aliquid velit, aperiam numquam quidem ullam
+                        quia. Commodi maiores minima vel eius earum saepe nemo at non fuga est inventore, et explicabo
+                        reprehenderit sunt facere mollitia nam ab corporis.</p>
+                </div>
+                <div class="col s12 m4 l4 offset-l2">
+                    <h5 class="white-text">Some helpful links</h5>
+                    <ul class="ul">
+                        <li>
+                            <a href="#" class="white-text">
+                                <div class="footer-icons">
+                                    <i class="material-icons white-text small">phone</i>
+                                    <span>Contact with us</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="white-text">
+                                <div class="footer-icons">
+                                    <i class="material-icons white-text small">account_balance</i>
+                                    <span>Check our mod base</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="white-text">
+                                <div class="footer-icons">
+                                    <i class="material-icons white-text small">assignment_ind</i>
+                                    <span>Leave your whitelist application</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="white-text">
+                                <div class="footer-icons">
+                                    <i class="material-icons white-text small">assignment</i>
+                                    <span>Leave your whitelist application</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="white-text">
+                                <div class="footer-icons">
+                                    <i class="material-icons white-text small">assignment</i>
+                                    <span>Leave your whitelist application</span>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
-    </section>
-    
-    <footer class="footer deep-orange lighten-2">
-      <div class="container">
-        <div class="row">
-          <div class="col s12 m6 footer-margin">
-            <h5 class="white-text">About developers</h5>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto aliquam dolorum officiis rem commodi explicabo magnam saepe iste quam tenetur? Vero mollitia alias vel, quia consequatur perferendis enim magni ipsum dicta, unde tempora adipisci velit, omnis libero a numquam eius?</p>
-          </div>
-      
-      
-          <div class="col s12 m4 l4 offset-l2 footer-margin">
-            <h5 class="white-text">Some helpful links</h5>
-            <ul>
-              <li>
-                <a href="#" class="black-text">
-                  <i class="material-icons white-text">phone</i>
-                  Contact with us
-                </a>
-              </li>
-              <li>
-                <a href="#" class="black-text">
-                  <i class="material-icons white-text">account_balance</i>
-                  Check our mod base
-                </a>
-              </li>
-              <li>
-                <a href="#" class="black-text">
-                  <i class="material-icons white-text">assignment_ind</i>
-                  Leave your whitelist application
-                </a>
-              </li>
-              <li>
-                <a href="#" class="black-text">
-                  <i class="material-icons white-text">assignment</i>
-                  Leave your whitelist application
-                </a>
-              </li>
-              <li>
-                <a href="#" class="black-text">
-                  <i class="material-icons white-text">assignment</i>
-                  Leave your whitelist application
-                </a>
-              </li>
-            </ul>
-            
-            <!-- <div class="col s12 m4 l4">
-              <h5 class="white-text">Social media</h5>
-            </div> -->
-          </div>
+
+        <div class="footer-copyright deep-orange white-text center-align copyright">
+            <div>&copy; <span class="year"></span> Michał Czech</div>
         </div>
-      </div>
-      
-      <div class="footer-copyright deep-orange white-text center-align copyright">
-        <div class="container">
-          &copy; 2018 Michal Czech
+        </ul>
         </div>
-      </div>
+        </div>
+        </div>
     </footer>
 
     <!-- Jquery and materialize javascript files -->
